@@ -232,6 +232,28 @@ body {
     overflow: hidden;
 }
 
+#grid a {
+    color: #f8f8f2;
+    text-decoration: none;
+}
+
+#grid h2 {
+    position: relative;
+    text-align: center;
+    width: 390px;
+    height: 224px;
+    top: -224px;
+    padding: 95px 0 0 0;
+    margin: 0;
+    background: rgba(21, 22, 28, 0.7);
+    opacity: 0;
+}
+
+#grid h2:hover {
+    opacity: 1;
+    transition: .5s;
+}
+
 .gal_obj img {
     max-width: 390px;
 }
